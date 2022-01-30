@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/riegoID"
+        android:title="Añadir riego">
+
+    </item>
+
+    <item
+        android:id="@+id/podaID"
+        android:title="Añadir poda">
+
+    </item>
+
+    <item
+        android:id="@+id/abonoID"
+        android:title="Añadir abono">
+
+    </item>
+
+    <item
+        android:id="@+id/fumigacionID"
+        android:title="Añadir fumigación">
+
+    </item>
+
+    <item
+        android:id="@+id/anadirRecolectaID"
+        android:title="Añadir recolecta">
+
+    </item>
+
+    <item
+        android:id="@+id/borrarPlantaID"
+        android:title="Borrar planta">
+
+    </item>
+
+    <item
+        android:id="@+id/perfilID"
+        android:title="Perfil">
+
+    </item>
+
+    <item
+        android:id="@+id/logOutID"
+        android:title="Log out">
+    </item>
+
+</menu>

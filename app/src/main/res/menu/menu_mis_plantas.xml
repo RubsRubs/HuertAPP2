@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/anadirPlantaID"
+        android:title="Añadir planta">
+
+    </item>
+
+    <item
+        android:id="@+id/borrarHuertoID"
+        android:title="Borrar huerto">
+
+    </item>
+
+    <item
+        android:id="@+id/perfilID"
+        android:title="Perfil">
+
+    </item>
+
+    <item
+        android:id="@+id/logOutID"
+        android:title="Log out">
+    </item>
+
+</menu>

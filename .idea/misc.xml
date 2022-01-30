@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_adapt_mis_huer.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_adaptador.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_adaptador_detalle_planta.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_crear_huerto.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_detalle_planta.xml" value="0.1" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_main.xml" value="0.42857142857142855" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_mis_huertos.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_mis_plantas.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_perfil.xml" value="0.4427083333333333" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_registro.xml" value="0.42857142857142855" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/menu/menu.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/menu/menu_crear_huerto.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/menu/menu_detalle_planta.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/menu/menu_mis_plantas.xml" value="0.446875" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/menu/menu_perfil.xml" value="0.4427083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
