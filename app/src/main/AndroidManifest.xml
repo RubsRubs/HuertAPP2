@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HuertAPP">
         <activity
+            android:name=".Recolecta"
+            android:exported="true" />
+        <activity
+            android:name=".Fumigacion"
+            android:exported="true" />
+        <activity
+            android:name=".Abono"
+            android:exported="true" />
+        <activity
+            android:name=".Poda"
+            android:exported="true" />
+        <activity
+            android:name=".Riego"
+            android:exported="true" />
+        <activity
             android:name=".DetallePlanta"
             android:exported="true" />
         <activity

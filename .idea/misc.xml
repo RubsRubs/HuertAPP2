@@ -3,16 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_abono.xml" value="0.3745471014492754" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_adapt_mis_huer.xml" value="0.446875" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_adaptador.xml" value="0.446875" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_adaptador_detalle_planta.xml" value="0.446875" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_crear_huerto.xml" value="0.446875" />
-        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_detalle_planta.xml" value="0.1" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_detalle_planta.xml" value="0.3828571428571429" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_fumigacion.xml" value="0.3745471014492754" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_main.xml" value="0.42857142857142855" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_mis_huertos.xml" value="0.446875" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_mis_plantas.xml" value="0.446875" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_perfil.xml" value="0.4427083333333333" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_poda.xml" value="0.3745471014492754" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_recolecta.xml" value="0.3745471014492754" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_registro.xml" value="0.42857142857142855" />
+        <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/layout/activity_riego.xml" value="0.3745471014492754" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/menu/menu.xml" value="0.446875" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/menu/menu_crear_huerto.xml" value="0.446875" />
         <entry key="..\:/Users/Synthwavex/AndroidStudioProjects/HuertAPP2/app/src/main/res/menu/menu_detalle_planta.xml" value="0.446875" />

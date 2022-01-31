@@ -11,20 +11,22 @@ import android.widget.TextView;
 public class AdaptadorDetallePlanta extends BaseAdapter {
 
     Context context;
-    int[] foto;
-    String[] nombre;
+    String[] accion;
+    String[] observacion;
+    String[] fecha;
 
     LayoutInflater inflater;
 
-    public AdaptadorDetallePlanta(Context context, int[] foto, String[] nombre) {
+    public AdaptadorDetallePlanta(Context context, String[] accion, String[] observacion, String[] fecha) {
         this.context = context;
-        this.foto = foto;
-        this.nombre = nombre;
+        this.accion = accion;
+        this.observacion = observacion;
+        this.fecha = fecha;
     }
 
     @Override
     public int getCount() {
-        return nombre.length;
+        return accion.length;
     }
 
     @Override
@@ -47,11 +49,13 @@ public class AdaptadorDetallePlanta extends BaseAdapter {
             view = inflater.inflate(R.layout.activity_adaptador_detalle_planta, null);
         }
 
-        ImageView fotoObj = view.findViewById(R.id.fotoID);
-        TextView nombreObj = view.findViewById(R.id.nombreID);
+        TextView accionObj = view.findViewById(R.id.accionID);
+        TextView observacionObj = view.findViewById(R.id.observacionID);
+        TextView fechaObj = view.findViewById(R.id.fechaID);
 
-        fotoObj.setImageResource(foto[position]);
-        nombreObj.setText(nombre[position]);
+        accionObj.setText(accion[position]);
+        observacionObj.setText(observacion[position]);
+        fechaObj.setText(fecha[position]);
         return view;
     }
 }
