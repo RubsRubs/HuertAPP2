@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173178672259",
+    "project_id": "huertapp-db",
+    "storage_bucket": "huertapp-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173178672259:android:b015a373198bc82d2f37b6",
+        "android_client_info": {
+          "package_name": "com.example.huertapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173178672259-t6phmlpt3r0vi7m5b50b9vkb58a77com.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpPQhttk7B-BTgZb0dwIgZZPveBJnshnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173178672259-t6phmlpt3r0vi7m5b50b9vkb58a77com.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
