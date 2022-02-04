@@ -23,5 +23,9 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="miBoton" parent="Widget.AppCompat.Button">
+        <item name="android:width"></item>
+    </style>
     
 </resources>

@@ -1,9 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">HuertAPP</string>
     <string name="Password">Password</string>
     <string name="Email">Email</string>
     <string name="RegistrateAqui">¿No tienes cuenta? Regístrate aquí</string>
     <string name="huertapp">HuertAPP</string>
-    <string name="Acceder">Acceder</string>
     <string name="app_logo">APP Logo</string>
 </resources>
