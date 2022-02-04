@@ -5,56 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="250dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="80dp"
-        android:src="@drawable/huer2"
-        android:scaleType="fitXY">
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_plant"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/app_logo" />
 
-    </ImageView>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/huertapp"
+        android:textAlignment="center"
+        android:textColor="@color/accent"
+        android:textSize="48sp"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:hint="Usuario"
-        android:inputType="text">
-
-    </EditText>
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="emailAddress" />
 
     <EditText
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:hint="Contraseña"
-        android:inputType="textPassword">
-
-    </EditText>
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/botonAceptarID"
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="Login">
-
-    </Button>
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/Acceder"
+        android:textSize="16sp"
+        android:textColor="@color/accent"
+        />
 
     <TextView
         android:id="@+id/registrarseID"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="Registrarse"
-        android:textSize="20dp">
+        android:textAlignment="center"
+        android:text="@string/RegistrateAqui"
+        android:textColor="@color/primary"
+        android:textSize="20sp">
 
     </TextView>
 
