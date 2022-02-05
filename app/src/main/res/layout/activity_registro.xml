@@ -8,6 +8,7 @@
     tools:context=".Registro">
 
     <EditText
+        android:id="@+id/editEmailID"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -18,6 +19,7 @@
     </EditText>
 
     <EditText
+        android:id="@+id/editUserID"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -27,6 +29,7 @@
     </EditText>
 
     <EditText
+        android:id="@+id/editPassw1ID"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -36,6 +39,7 @@
     </EditText>
 
     <EditText
+        android:id="@+id/editPassw2ID"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -52,6 +56,15 @@
         android:layout_marginTop="20dp"
         android:text="Registro">
     </Button>
+
+    <ProgressBar
+        android:id="@+id/cargandoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:visibility="invisible">
+    </ProgressBar>
 
 
 </LinearLayout>
