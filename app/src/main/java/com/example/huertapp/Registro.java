@@ -2,7 +2,6 @@ package com.example.huertapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,7 +9,6 @@ import android.os.Looper;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Toast;
-
 import com.basgeekball.awesomevalidation.AwesomeValidation;
 import com.basgeekball.awesomevalidation.ValidationStyle;
 import com.example.huertapp.databinding.ActivityRegistroBinding;
@@ -58,7 +56,7 @@ public class Registro extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
 
                             if (task.isSuccessful()) {
-                                Snackbar.make(view, "Usuario creado con éxito", Snackbar.LENGTH_LONG).show();
+                                Toast.makeText(Registro.this, "Usuario creado con éxito", Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(getApplicationContext(), MisHuertos.class);
 
                                 binding.cargandoID.setVisibility(View.VISIBLE);
@@ -78,9 +76,9 @@ public class Registro extends AppCompatActivity {
                     });
 
                 } else if (campoUser()) {
-                    Snackbar.make(view, "Introduzca un usuario", Snackbar.LENGTH_LONG).show();
+                    Toast.makeText(Registro.this, "Introduzca un usuario", Toast.LENGTH_SHORT).show();
                 } else if (!coincidenPassw()) {
-                    Snackbar.make(view, "Las contraseñas no coinciden", Snackbar.LENGTH_LONG).show();
+                    Toast.makeText(Registro.this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show();
                 }
             }
         });
