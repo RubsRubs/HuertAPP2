@@ -39,7 +39,7 @@ public class Registro extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
         awesomeValidation = new AwesomeValidation(ValidationStyle.BASIC); //utilizamos la versión básica de AwesomeValidation
-        awesomeValidation.addValidation(binding.editEmailID, Patterns.EMAIL_ADDRESS, emailError); //si no se mete una dirección de correo salta el error
+        awesomeValidation.addValidation(binding.editEmailID, Patterns.EMAIL_ADDRESS, emailError); //si no se mete una dirección de correo válida salta el error
         awesomeValidation.addValidation(binding.editPassw1ID, ".{6,}", passwError); //si la contraseña no tiene al menos 6 caracteres salta el error
     }
 
@@ -67,7 +67,6 @@ public class Registro extends AppCompatActivity {
                                     @Override
                                     public void run() {
                                         startActivity(intent);
-                                        finish();
                                     }
                                 }, 1000);
 
