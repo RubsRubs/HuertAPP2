@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/editEmailID"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginTop="230dp"
         android:hint="Email"
@@ -20,8 +20,8 @@
 
     <EditText
         android:id="@+id/editUserID"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:hint="Usuario"
@@ -31,8 +31,8 @@
 
     <EditText
         android:id="@+id/editPassw1ID"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:hint="Contraseña"
@@ -42,8 +42,8 @@
 
     <EditText
         android:id="@+id/editPassw2ID"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:hint="Confirmar contraseña"
@@ -53,17 +53,19 @@
 
     <Button
         android:id="@+id/btnRegisID"
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="64dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Registro">
+        android:text="Registro"
+        android:textSize="16sp"
+        android:textColor="@color/accent">
 
     </Button>
 
     <ProgressBar
         android:id="@+id/cargandoID"
-        android:layout_width="wrap_content"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
