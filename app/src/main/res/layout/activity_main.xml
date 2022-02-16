@@ -29,6 +29,7 @@
         tools:ignore="TextContrastCheck" />
 
     <EditText
+        android:id="@+id/editEmailID"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="@string/Email"
@@ -37,6 +38,7 @@
         android:autofillHints="emailAddress" />
 
     <EditText
+        android:id="@+id/editPasswID"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="@string/Password"

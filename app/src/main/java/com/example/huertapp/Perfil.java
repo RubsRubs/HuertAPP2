@@ -7,10 +7,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.huertapp.databinding.ActivityMisHuertosBinding;
 import com.example.huertapp.databinding.ActivityPerfilBinding;
 import com.example.huertapp.databinding.ActivityRegistroBinding;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Perfil extends AppCompatActivity {
 
@@ -51,6 +53,8 @@ public class Perfil extends AppCompatActivity {
 
 
             case R.id.logOutID: {
+                FirebaseAuth.getInstance().signOut();
+                Toast.makeText(Perfil.this, "Sesión finalizada", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);

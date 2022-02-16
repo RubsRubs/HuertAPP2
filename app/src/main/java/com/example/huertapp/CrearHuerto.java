@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.huertapp.databinding.ActivityCrearHuertoBinding;
 import com.example.huertapp.databinding.ActivityMisHuertosBinding;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class CrearHuerto extends AppCompatActivity {
 
@@ -48,6 +50,8 @@ public class CrearHuerto extends AppCompatActivity {
             }
 
             case R.id.logOutID: {
+                FirebaseAuth.getInstance().signOut();
+                Toast.makeText(CrearHuerto.this, "Sesión finalizada", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);

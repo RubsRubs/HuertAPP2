@@ -6,9 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.huertapp.databinding.ActivityPodaBinding;
 import com.example.huertapp.databinding.ActivityRecolectaBinding;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Recolecta extends AppCompatActivity {
 
@@ -36,6 +38,8 @@ public class Recolecta extends AppCompatActivity {
             }
 
             case R.id.logOutID: {
+                FirebaseAuth.getInstance().signOut();
+                Toast.makeText(Recolecta.this, "Sesión finalizada", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
